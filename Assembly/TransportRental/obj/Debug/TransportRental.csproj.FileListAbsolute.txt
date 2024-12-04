@@ -1,0 +1,17 @@
+C:\Users\Admin\source\repos\TransportRental\TransportRental\bin\Debug\TransportRental.exe.config
+C:\Users\Admin\source\repos\TransportRental\TransportRental\bin\Debug\TransportRental.exe
+C:\Users\Admin\source\repos\TransportRental\TransportRental\bin\Debug\TransportRental.pdb
+C:\Users\Admin\source\repos\TransportRental\TransportRental\obj\Debug\TransportRental.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\TransportRental\TransportRental\obj\Debug\TransportRental.Properties.Resources.resources
+C:\Users\Admin\source\repos\TransportRental\TransportRental\obj\Debug\TransportRental.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\TransportRental\TransportRental\obj\Debug\TransportRental.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\TransportRental\TransportRental\obj\Debug\TransportRental.exe
+C:\Users\Admin\source\repos\TransportRental\TransportRental\obj\Debug\TransportRental.pdb
+C:\Users\Admin\source\repos\TransportRental\TransportRental\obj\Debug\TransportRental.Registration.resources
+C:\Users\Admin\source\repos\TransportRental\TransportRental\obj\Debug\TransportRental.Login.resources
+C:\Users\Admin\source\repos\TransportRental\TransportRental\obj\Debug\TransportRental.User.resources
+C:\Users\Admin\source\repos\TransportRental\TransportRental\obj\Debug\TransportRental.Admin.resources
+C:\Users\Admin\source\repos\TransportRental\TransportRental\bin\Debug\TransportRental.exe.manifest
+C:\Users\Admin\source\repos\TransportRental\TransportRental\bin\Debug\TransportRental.application
+C:\Users\Admin\source\repos\TransportRental\TransportRental\obj\Debug\TransportRental.exe.manifest
+C:\Users\Admin\source\repos\TransportRental\TransportRental\obj\Debug\TransportRental.application

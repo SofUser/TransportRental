@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TransportRental.exe" version="1.0.0.7" publicKeyToken="392f760ff55991d6" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TransportRental" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TransportRental.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          При необходимости изменить уровень контроля учетных записей Windows замените узел 
+          requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Если вы хотите использовать виртуализацию файлов и реестра для обратной 
+         совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TransportRental.exe" size="502720">
+      <assemblyIdentity name="TransportRental" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>z+E79W7IQSSvFMHi7UcatjKL2+OL+QQk0ET2BYy30mE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TransportRental.exe.config" size="505">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7PYECSnxp6sWphq3XGbuGW+qBtS9EP7WbL1pk0gBNA8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BEST-KOMP\Admin" issuerKeyHash="e4e20e8830a7d5da12c598ae03e125e4480da47d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MtZBsq2NtIr8wapp5RkMCHbL/LkLAnRqlGz6QpcmOZU=</DigestValue></Reference></SignedInfo><SignatureValue>eelb4orPi5Y7jFaBEwI8MV9yaVbiOQVyei9AFPsc4K8Cn0Uu7ku70KQimQjNWzL5E7nblsvBaOBwkiR2/Tqq5TOZm6xT6bqeHom+gjj3UfBWGre0vUgQ1lax+l2HBTRNxAxL43Z2qd7OhRa68DQXIiEa64j6pJFYgy28QWS6zI0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>w+x18/5CunWCq+TP1nHOicuos1gHmjjfguMGSRSJCIPh8+a3ixCwzyA82oiFnZqsY5naLOcCnrarNjnZGY1vdxdUYJDh+mPkollYTG8LCp+XywjVJNCmsRlSTsczM3/KqFM2n8AHJbucYlt8k9bvIHwIPlC4T96vrbQ1l6OLWiE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9539269742fa6c946a74020bb9fccb76080c19e569aac1fc8ab48dadb241d632" Description="" Url=""><as:assemblyIdentity name="TransportRental.exe" version="1.0.0.7" publicKeyToken="392f760ff55991d6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BEST-KOMP\Admin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>DAUWBXqMau1NKlXiz4qwHrlZzbQwMLrosE4E52f7e54=</DigestValue></Reference></SignedInfo><SignatureValue>nQq6IMO/DERuxwTJzkgwAjHMdjXH5pu296KmNTUazSJ2k6M1vklp6ifM1QWOu1Y6JSQCQU4BMt3nflGZTygTKLqPlasaHqIGm/FK2PRuxLGKt9NI+MhboHhjBHQUbfYOM0ABAhaj/IWa+UhP+5tiC0NOx94SI4Kt6Rs8Zc1UN6o=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>w+x18/5CunWCq+TP1nHOicuos1gHmjjfguMGSRSJCIPh8+a3ixCwzyA82oiFnZqsY5naLOcCnrarNjnZGY1vdxdUYJDh+mPkollYTG8LCp+XywjVJNCmsRlSTsczM3/KqFM2n8AHJbucYlt8k9bvIHwIPlC4T96vrbQ1l6OLWiE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQTq9zF3gU0Z5IKauktali+jANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AQgBFAFMAVAAtAEsATwBNAFAAXABBAGQAbQBpAG4wHhcNMjQxMjAzMTMwODUwWhcNMjUxMjAzMTkwODUwWjApMScwJQYDVQQDHh4AQgBFAFMAVAAtAEsATwBNAFAAXABBAGQAbQBpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMPsdfP+Qrp1gqvkz9ZxzonLqLNYB5o434LjBkkUiQiD4fPmt4sQsM8gPNqIhZ2arGOZ2iznAp62qzY52RmNb3cXVGCQ4fpj5KJZWExvCwqfl8sI1STQprEZUk7HMzN/yqhTNp/AByW7nGJbfJPW7yB8CD5QuE/er620NZeji1ohAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAlGX4rg5z2XD4CsuHC/SPjbBOIdpEqKTDdD6IzK8STknztExyYWnXBTRiJdgF68opnEcZJFc/4+owNni7s/bftW2968m/+No4mEZjYebox6FxBh5rnMRu3s+1DxU6IQfDz0KToi2EMjqHy5H2s49vrKUmCKrvTGhYBhBskCzf8bA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
